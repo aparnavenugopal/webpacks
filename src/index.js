@@ -1,7 +1,7 @@
 import _ from "lodash";
 // import "./index.css";
 import './clearButton';
-import style from "./index.css";
+import style from "./index.scss";
 
 console.log(style);
 const btn1 = document.getElementById("button1");
