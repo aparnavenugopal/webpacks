@@ -1,10 +1,12 @@
 import _ from "lodash";
 // import "./index.css";
+import logo from '../assests/webpack_logo.png'
 import './clearButton';
 import style from "./index.scss";
 
 console.log(style);
 const btn1 = document.getElementById("button1");
+const logoEl = document.getElementById("logo");
 
 btn1.addEventListener("click", function(){
     const el = document.getElementById("header");
@@ -19,7 +21,8 @@ btn1.addEventListener("click", function(){
     })
 })
 
-btn1.classList.add([style.button]);
+btn1.classList.add("button");
+logoEl.src = logo;
 // const buttonclicked = () => {
    
 // }
