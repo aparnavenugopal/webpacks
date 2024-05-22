@@ -3,3 +3,7 @@
     color: aquamarine;
 }
 
+:global(.button){
+    background: yellowgreen;
+}
+
